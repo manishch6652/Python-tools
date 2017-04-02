@@ -4,7 +4,7 @@ import urllib.request
 sauce = urllib.request.urlopen('https://pythonprogramming.net/parsememcparseface/').read()
 #print(sauce) #print source code as it is
 soup = bs.BeautifulSoup(sauce,"lxml")
-##lxml is parser
+#lxml is parser
 #soup is more formatted source code form
 #print(soup)
 #print(soup.title.string) #return title name of web page
